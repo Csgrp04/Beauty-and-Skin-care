@@ -55,10 +55,10 @@ header {
     align-items: center;
     justify-content: space-between;
     /* background: rgb(rgba(6, 51, 30, 0.1)); */
-    box-shadow: 0 8px 11px rgba(26, 117, 105, 0.384);
+    box-shadow: 0 8px 11px rgba(107, 40, 90, 0.384);
     padding: 20px 100px;
     transition: 0.5s;
-    background-color: rgb(7, 65, 62);
+    background-color: rgb(71, 10, 68);
 }
 
 .profile {
@@ -87,7 +87,7 @@ header {
     align-items: center;
     font-size: 1.1rem;
     font-weight: 600;
-    color: #72edfd;
+    color: #f09fd5;
 }
 .logo i{
     padding-right: 0.5rem;
