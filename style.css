@@ -18,17 +18,17 @@
     --light-pink-color: #f09fd5;
     --purple-color: #b500fd;
     --light-purple-color: #dc61f5;
-    --text-color: #641754;
+    --text-color: #300427;
     --bg-color: #fff;
 }
 /* Custom Scroll Bar */
 ::-webkit-scrollbar {
     width: 0.5rem;
-    background: rgb(134, 220, 248);
+    background: rgb(247, 120, 230);
 }
 ::-webkit-scrollbar-thumb {
     width: 0.5rem;
-    background: var(--green-color);
+    background: var(--pink-color);
     border-radius: 5rem;
 }
 section {
@@ -107,7 +107,7 @@ header {
 
 .navbar a:hover,
 .navbar .home-active {
-    background: var(--green-color);
+    background: var(--pink-color);
     border-radius: 5rem;
     color: var(--bg-color);
     transition: background 0.5s;
@@ -125,7 +125,7 @@ header {
     min-height: 640px;
     display: flex;
     align-items: center;
-    background: url(cs\ pictuers/background.jpg);
+    background: url(Pictuers/background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -143,7 +143,7 @@ header {
 .home-text span{
     font-weight: 500;
     text-transform: uppercase;
-    color: rgb(134, 220, 248)
+    color: #2b0433
 }
 .home-text h1 {
     font-size: 2.4rem;
@@ -152,7 +152,7 @@ header {
 }
 .btn {
     padding: 0.6rem 1rem;
-    background: var(--green-color);
+    background: var(--pink-color);
     color: var(--bg-color);
     font-weight: 400;
     border-radius: 5rem;
@@ -171,7 +171,7 @@ header {
     margin: auto;
 }
 .btn:hover {
-    background: rgb(7, 236, 160);
+    background: rgb(109, 23, 126);
     transition: 0.2s ease;
 }
 .heading {
@@ -182,8 +182,8 @@ header {
 .heading h1 {
     font-size: 1.6rem;
     font-weight: 600;
-    color: rgb(29, 128, 123);
+    color: rgb(240, 84, 193);
 }
 .heading span {
-    color: #0f5842;
+    color: #5f0a3b;
 }
