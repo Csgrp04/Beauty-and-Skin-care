@@ -12,4 +12,19 @@ document.addEventListener("DOMContentLoaded", function() {
         },
     });
   });
-  
+  function toggleSubcategories(subcategoryId) {
+    const subcategory = document.getElementById(subcategoryId);
+    const allSubcategories = document.querySelectorAll('.subcategory-list');
+
+    allSubcategories.forEach((sub) => {
+        if (sub.id !== subcategoryId) {
+            sub.style.display = 'none';
+        }
+    });
+
+    if (subcategory.style.display === 'block') {
+        subcategory.style.display = 'none';
+    } else {
+        subcategory.style.display = 'block';
+    }
+}
