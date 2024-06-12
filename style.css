@@ -263,14 +263,14 @@ header {
 
 .sale{
     font-size: 15px;
-    color: rgb(24, 17, 31);
-    text-align: center;
+    color: #5a113b;
+    text-align:left;
     margin-left: 70px;
 }
 .products{
     width:900px;
-    margin-left: 200px;
-    margin-right: 400px;
+    margin-left:auto;
+    margin-right:auto;
    
 }
 .heading2 a{
@@ -284,7 +284,7 @@ header {
 
 .products-container{
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    grid-template-columns: repeat(3,1fr);
     gap:1.5rem;
     transition: transform 0.5s;
   
@@ -378,6 +378,7 @@ img{
     text-align: center;
     font-size: 1.6rem;
     font-weight:680 ;
+    color: #5a113b;
 }
 .customers-container{
     display: grid;
@@ -430,7 +431,6 @@ img{
 
    
 /*footer*/
-
 .footer{
     background-color: rgb(216, 185, 203);
     max-width: 1020px;
@@ -532,6 +532,7 @@ form .email{
     margin-left: 10px;
 }
 
+
 /*about*/
 
 .about{
@@ -546,7 +547,7 @@ form .email{
 .about-text span{
     font-weight: 600;
     text-transform: uppercase;
-    color: #db54f7;
+    color:rgb(240, 84, 193);
     font-size: 20px;
 }
 .about-text p{
