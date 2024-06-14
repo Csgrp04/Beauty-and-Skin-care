@@ -175,6 +175,9 @@ header {
     background: rgb(109, 23, 126);
     transition: 0.2s ease;
 }
+
+/*category*/
+
 .heading {
     display: flex;
     justify-content: space-between;
